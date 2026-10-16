@@ -7,12 +7,24 @@ __pycache__/
 /.venv/
 /venv/
 
-# Datos personales y derivados
-/data/bronze/*.csv
+# Compilados de C# (se regeneran con dotnet build)
+/benchmark_csharp/bin/
+/benchmark_csharp/obj/
+
+# Datos crudos y derivados (se descargan/regeneran al ejecutar los notebooks)
+# Bronze: se ignoran los datos pesados en cualquier subcarpeta,
+# pero se conservan los manifiestos (trazabilidad: origen, tamaño, sha256)
+/data/bronze/**/*.csv
+/data/bronze/**/*.zip
+/data/bronze/**/*.parquet
 /data/silver/*
 !/data/silver/text.txt
 /data/gold/*
 !/data/gold/text.txt
+
+# Salidas generadas por los notebooks (gráficos, reportes)
+/outputs/*
+!/outputs/text.txt
 
 # Temporales
 /tmp/*

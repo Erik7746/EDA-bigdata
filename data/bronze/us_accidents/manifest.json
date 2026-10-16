@@ -1,0 +1,14 @@
+{
+  "dataset": "sobhanmoosavi/us-accidents",
+  "source_url": "https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents",
+  "license": "CC BY-NC-SA 4.0",
+  "ingested_at_utc": "2026-10-16T14:40:49.095657+00:00",
+  "layer": "bronze",
+  "files": [
+    {
+      "name": "US_Accidents_March23.csv",
+      "bytes": 3058183727,
+      "sha256": "e3e9f962e3e2289db1bdce91623abbcf9ba4d7bfc1adb091c8aeee6c2639d204"
+    }
+  ]
+}
