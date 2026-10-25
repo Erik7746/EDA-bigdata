@@ -10,5 +10,44 @@
       "bytes": 3058183727,
       "sha256": "e3e9f962e3e2289db1bdce91623abbcf9ba4d7bfc1adb091c8aeee6c2639d204"
     }
-  ]
+  ],
+  "muestra": {
+    "name": "muestra_7pct.csv",
+    "fraccion": 0.07,
+    "semilla": 42,
+    "tamano_bloque": 500000,
+    "filas_originales": 7728394,
+    "filas": 540988,
+    "columnas": [
+      "ID",
+      "Source",
+      "Severity",
+      "Start_Time",
+      "End_Time",
+      "Start_Lat",
+      "Start_Lng",
+      "End_Lat",
+      "End_Lng",
+      "Distance(mi)",
+      "City",
+      "State",
+      "Zipcode",
+      "Country",
+      "Timezone",
+      "Weather_Timestamp",
+      "Temperature(F)",
+      "Humidity(%)",
+      "Pressure(in)",
+      "Visibility(mi)",
+      "Wind_Speed(mph)",
+      "Precipitation(in)",
+      "Weather_Condition",
+      "Traffic_Signal",
+      "Crossing",
+      "Junction",
+      "Stop",
+      "Roundabout",
+      "Sunrise_Sunset"
+    ]
+  }
 }
